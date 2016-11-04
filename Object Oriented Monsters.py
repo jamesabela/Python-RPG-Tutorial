@@ -38,7 +38,8 @@ def main_game():
             enemy_monster.Health = int(my_monster.Attack) - int(enemy_monster.Defence)
         elif action.upper() == "M":
             enemy_monster.Health = int(my_monster.Magical_Force) - int(enemy_monster.Magical_Defence)
-
+        # This is an incredibly basic routine that enables you to hit the monster!
+        # The fun comes in using Random functions and getting the monster to hit back.
         print("Your Monster's Health:",my_monster.Health)
         print("Enemy Monster's Health:",enemy_monster.Health)
 
